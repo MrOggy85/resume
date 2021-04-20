@@ -1,0 +1,85 @@
+th {
+  font-weight: normal;
+}
+
+@media (max-width: 40rem) {
+  td, th {
+    padding-left: 0;
+  }
+}
+
+@media print, (min-width: 40rem) {
+  .row .skills {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+
+  .top {
+    text-align: center;
+  }
+
+  .about {
+    justify-content: center;
+  }
+  .about > .column {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+  .about h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 40rem) {
+  .row .experience {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+
+.experience h4 {
+  margin-bottom: 0;
+}
+/* .experience em {
+  display: block;
+  margin-bottom: 10px;
+} */
+.experience .period {
+  text-align: right;
+}
+
+
+@media print {
+  .row {
+    display: block !important;
+  }
+  .column {
+    display: inline-block !important;
+  }
+
+  .about > .column {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .skills {
+    float: left;
+  }
+  .row .experience {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 20px;
+  }
+  .experience .column .column {
+    display: inline-block;
+    width: 48%;
+  }
+
+  /* hack */
+  .experience-1 {
+    margin-bottom: 200px;
+  }
+}
