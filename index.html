@@ -23,10 +23,16 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
+      <div class="row top-row">
         <div class="column top">
           <h1>Oskar Lindgren</h1>
           <p>Fullstack Web/Mobile Developer</p>
+          <div class="contact">
+            <span>080-3400 4555</span><br />
+            <a href="https://github.com/MrOggy85">github.com/MrOggy85</a><br />
+            <a href="https://www.oskarlindgren.se/">www.oskarlindgren.se</a><br />
+            <a href="https://www.oskarlindgren.se/blog">www.oskarlindgren.se/blog</a><br />
+          </div>
         </div>
       </div>
       <div class="row about">
@@ -51,7 +57,7 @@
           <table>
             <thead>
               <tr>
-                <th>Languages</th>
+                <th>Frontend</th>
                 <th>y/xp</th>
                 <th>Comment</th>
               </tr>
@@ -76,11 +82,28 @@
                 </td>
               </tr>
               <tr>
-                <td>C#</td>
+                <td>React</td>
+                <td>7 years</td>
+                <td>
+                  I have used React since back in 2014.
+                  It's the standard for creating web based experiences for a good reason.
+                </td>
+              </tr>
+              <tr>
+                <td>React Native</td>
                 <td>3 years</td>
                 <td>
                   I have used React Native to create 3 apps (both iOS and Android) for companies
-                  and I used it for hobby projects. 1 app
+                  and I used it for hobby projects.
+                </td>
+              </tr>
+              <tr>
+                <td>Vue</td>
+                <td>5 years</td>
+                <td>
+                  I was an early adopter of Vue and was a Patreon of Evan You in the early days.
+                  I like the simplicity it brings, the opinionated framework, but yet highly customizable.
+                  It's a very well thought through framework compared to React.
                 </td>
               </tr>
               <tr>
@@ -101,61 +124,14 @@
                 </td>
               </tr>
               <tr>
-                <td>Bash / Shell</td>
-                <td>5 years</td>
-                <td>
-                  Writing simple scripts and keeping your .zshrc full of handy aliases is something that helps everyday dev work.
-                </td>
-              </tr>
-              <tr>
-                <td>PHP</td>
-                <td>1 year</td>
-                <td>
-                  Some of the clients I had were using PHP.
-                  And I have also helped friends with their Wordpress sites.
-                  In university I created a text adventure game using PHP.
-                </td>
-              </tr>
-
-            </tbody>
-          </table>
-
-          <table>
-            <thead>
-              <tr>
-                <th>Frontend</th>
-                <th>y/xp</th>
-                <th>Comment</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>React</td>
-                <td>7 years</td>
-                <td>
-                  I have used React since back in 2014.
-                  It's the standard for creating web based experiences for a good reason.
-
-                </td>
-              </tr>
-              <tr>
-                <td>React Native</td>
-                <td>3 years</td>
-                <td>
-                  I have used React Native to create 3 apps (both iOS and Android) for companies
-                  and I used it for hobby projects. 1 app
-                </td>
-              </tr>
-              <tr>
-                <td>Vue</td>
-                <td>5 years</td>
-                <td>
-
-                </td>
-              </tr>
-              <tr>
                 <td>Angular</td>
                 <td>5 years</td>
+                <td>
+                  I have been working with both Angular 1 and 2.
+                  Mostly when working for bigger companies.
+                  It's not my favorite frontend framework since it's trying to use backend
+                  paradigms in frontend environment which doesn't play well, imho.
+                </td>
               </tr>
             </tbody>
           </table>
@@ -164,6 +140,7 @@
               <tr>
                 <th>Backend</th>
                 <th>Experience</th>
+                <th>Comment</th>
               </tr>
             </thead>
             <tbody>
@@ -173,7 +150,6 @@
                 <td>
                   I have used Node.js since around 2014.
                   It is such a freedom to be able to write JS/TS on the server.
-
                 </td>
               </tr>
               <tr>
@@ -194,22 +170,43 @@
                 </td>
               </tr>
               <tr>
-                <td>C#</td>
+                <td>C# / .NET</td>
                 <td>5 years</td>
                 <td>
-                  I have used C# when working for a German optician and for a Swedish affiliate marketing company.
+                  I have used C# when working for a German optician and ASP.NET for a Swedish affiliate marketing company.
+                  It's also one of the first languages I started coding in.
                 </td>
               </tr>
               <tr>
                 <td>Java</td>
                 <td>3 years</td>
-                <td>Most of my Java experience comes from Android.
+                <td>
+                  Most of my Java experience comes from Android, but I have been working for companies that were using Java for the backend.
                   To be honest it's not my favorite language, but it works.
+                </td>
+              </tr>
+              <tr>
+                <td>Bash / Shell</td>
+                <td>5 years</td>
+                <td>
+                  Writing simple scripts and keeping your .zshrc full of handy aliases is something that helps everyday dev work.
+                </td>
+              </tr>
+              <tr>
+                <td>PHP</td>
+                <td>1 year</td>
+                <td>
+                  Some of the clients I had were using PHP.
+                  And I have also helped friends with their Wordpress sites.
+                  In university I created a text adventure game using PHP.
                 </td>
               </tr>
               <tr>
                 <td>MySQL / MS SQL</td>
                 <td>8 years</td>
+                <td>
+                  SELCT all FROM YourBase WHERE are = 'belongs to us';
+                </td>
               </tr>
             </tbody>
           </table>
@@ -218,28 +215,38 @@
               <tr>
                 <th>Ops</th>
                 <th>Experience</th>
+                <th>Comment</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>AWS</td>
                 <td>5 years</td>
+                <td>
+                  Most of the companies I have worked for are deploying to AWS.
+                  I know my way around ECS to deploy docker containers (Tasks) and to setup simple resources.
+                  But, I would not consider myself an expert for the more advanced AWS resources like networks.
+                </td>
               </tr>
               <tr>
                 <td>Docker</td>
-                <td>3 years</td>
+                <td>5 years</td>
+                <td>
+                  I use Docker on almost a daily basis.
+                  When deploying any service or frontend it's always bundled in an image.
+                  It's a great tool to have your service separated from the underlying host OS
+                  and to avoid installing a lot of dependencies locally or in the host machine.
+                </td>
               </tr>
               <tr>
                 <td>Digital Ocean</td>
-                <td>0.5 years</td>
-              </tr>
-              <tr>
-                <td>C#</td>
-                <td>5 years</td>
-              </tr>
-              <tr>
-                <td>Java</td>
                 <td>2 years</td>
+                <td>
+                  I use Digital Ocean for my personal projects and services.
+                  I self host Nextcloud, run a MySQL DB and some smaller projects on a VPC.
+                  I manage 2 domains, where one is used for email.
+                  I used to host an email server, but I switched to Tutanota to ease my mind.
+                </td>
               </tr>
             </tbody>
           </table>
@@ -327,7 +334,7 @@
 
           <hr />
 
-          <div class="row">
+          <div class="row experience-2">
             <div class="column">
               <h4>Senior Consultant & Full Stack Developer</h4>
               <div class="row">
@@ -344,8 +351,8 @@
               <table>
                 <thead>
                   <tr>
-                    <th>Client</th>
-                    <th>Project</th>
+                    <th></th>
+                    <th></th>
                   </tr>
                 </thead>
                 <tbody>
