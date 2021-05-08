@@ -12,11 +12,16 @@ th {
   }
 }
 
+hr {
+  border-top: 0.1rem solid #b9b9b9;
+}
+
 .top-row {
   position: relative;
   background-color: #5885AF;
   color: #efdecd;
   padding: 0 10px;
+  margin-bottom: 2rem;
 }
 .contact {
   position: absolute;
@@ -31,6 +36,15 @@ th {
 @media (max-width: 40rem) {
   .contact {
     position: static;
+  }
+}
+
+.main-row {
+  justify-content: space-between;
+}
+@media (max-width: 40rem) {
+  .main-row {
+    flex-direction: column-reverse;
   }
 }
 
@@ -101,4 +115,8 @@ th {
     display: inline-block;
     width: 48%;
   }
+}
+
+.skills h2, .experience h2 {
+  border-bottom: 1px solid #606c76;
 }
