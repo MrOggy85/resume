@@ -6,7 +6,7 @@ th {
   font-weight: normal;
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 450px) {
   td, th {
     padding-left: 0;
   }
@@ -17,23 +17,31 @@ hr {
 }
 
 .top-row {
+  -webkit-print-color-adjust: exact !important;
   position: relative;
   background-color: #5885AF;
   color: #efdecd;
-  padding: 0 10px;
+  padding: 0;
   margin-bottom: 2rem;
+  min-height: 145px;
 }
+.top-row .top {
+  padding: 0;
+}
+
 .contact {
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 0;
   text-align: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .contact a {
   color: #efdecd;
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 700px) {
   .contact {
     position: static;
   }
@@ -42,7 +50,7 @@ hr {
 .main-row {
   justify-content: space-between;
 }
-@media (max-width: 40rem) {
+@media (max-width: 450px) {
   .main-row {
     flex-direction: column-reverse;
   }
@@ -52,7 +60,7 @@ hr {
   font-weight: bold;
 }
 
-@media print, (min-width: 40rem) {
+@media print, (min-width: 450px) {
   .row .skills {
     flex: 0 0 45%;
     max-width: 45%;
@@ -74,7 +82,7 @@ hr {
   }
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 450px) {
   .row .experience {
     flex: 0 0 50%;
     max-width: 50%;
