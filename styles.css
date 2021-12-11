@@ -1,5 +1,6 @@
 body {
   background: #eae9e6;
+  color: #17181a;
 }
 
 th {
@@ -19,7 +20,7 @@ hr {
 .top-row {
   -webkit-print-color-adjust: exact !important;
   position: relative;
-  background-color: #5885AF;
+  background-color: #0084ff;
   color: #efdecd;
   padding: 0;
   margin-bottom: 2rem;
