@@ -20,9 +20,10 @@ hr {
 .top-row {
   -webkit-print-color-adjust: exact !important;
   position: relative;
-  background-color: #0084ff;
+  background-color: #1000ff;
   color: #efdecd;
   padding: 0;
+  padding-left: 1em;
   margin-bottom: 2rem;
   min-height: 145px;
 
